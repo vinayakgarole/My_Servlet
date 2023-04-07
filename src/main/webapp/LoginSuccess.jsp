@@ -1,10 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=US-ASCII">
+    <meta charset="ISO-8859-1">
     <title>Login Success Page</title>
 </head>
 <body>
-<h3>Hi <%= request.getAttribute("user") %>, Login Successful.</h3>
-<a href="Login.html">Login Page</a>
+    <h3>Hi <%= request.getAttribute("user") %>, Login Successfull.</h3>
+    <a href = "login.html">Login Page</a>
 </body>
 </html>
